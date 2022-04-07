@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 2,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 191.0, 85.0, 1784.0, 1272.0 ],
+		"rect" : [ 109.0, 89.0, 1053.0, 577.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 772.0, 122.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 415.0, 199.0, 50.0, 22.0 ],
+					"text" : "3"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"autosave" : 1,
 					"bgmode" : 1,
 					"border" : 0,
@@ -49,6 +73,7 @@
 					"id" : "obj-72",
 					"linecount" : 2,
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 4,
@@ -149,25 +174,7 @@
 										"filename" : "ChamberVerb.amxd.maxsnap",
 										"filepath" : "~/OneDrive/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "45efd2f9116fe01e0a8c97e44423e0c7"
-									}
-
-								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "ChamberVerb.amxd",
-									"origin" : "ChamberVerb.amxd",
-									"type" : "amxd",
-									"subtype" : "Undefined",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "ChamberVerb.amxd",
-										"filename" : "ChamberVerb.amxd.maxsnap",
-										"filepath" : "~/OneDrive/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "45efd2f9116fe01e0a8c97e44423e0c7"
+										"snapshotfileid" : "9aab840c3d3f26611ec05d2748dd79cd"
 									}
 
 								}
@@ -193,6 +200,7 @@
 					"id" : "obj-71",
 					"linecount" : 2,
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 4,
@@ -295,25 +303,7 @@
 										"filename" : "Chorus x2.amxd.maxsnap",
 										"filepath" : "~/OneDrive/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "b988ce53993bd6455d5d25a630008a3e"
-									}
-
-								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "Chorus x2.amxd",
-									"origin" : "Chorus x2.amxd",
-									"type" : "amxd",
-									"subtype" : "Undefined",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "Chorus x2.amxd",
-										"filename" : "Chorus x2.amxd.maxsnap",
-										"filepath" : "~/OneDrive/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "b988ce53993bd6455d5d25a630008a3e"
+										"snapshotfileid" : "822fe661a8f865406e739962eb472e1d"
 									}
 
 								}
@@ -875,7 +865,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 159.0, 162.0, 86.0, 22.0 ],
+					"patching_rect" : [ 159.0, 144.0, 86.0, 22.0 ],
 					"text" : "route /scissors"
 				}
 
@@ -902,7 +892,7 @@
 								"filename" : "blp512.aiff",
 								"filekind" : "audiofile",
 								"id" : "u718001755",
-								"selection" : [ 0.0, 1.0 ],
+								"selection" : [ 0.671052631578947, 0.394736842105263 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -910,10 +900,10 @@
 
 							}
 , 							{
-								"absolutepath" : "anton.aif",
-								"filename" : "anton.aif",
+								"absolutepath" : "C:\\Users\\garre\\OneDrive\\Desktop\\group-a-atmos.wav",
+								"filename" : "group-a-atmos.wav",
 								"filekind" : "audiofile",
-								"id" : "u274001816",
+								"id" : "u295001300",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -962,7 +952,7 @@
 								"filename" : "cym.aiff",
 								"filekind" : "audiofile",
 								"id" : "u242001822",
-								"selection" : [ 0.0, 1.0 ],
+								"selection" : [ 0.388157894736842, 0.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -970,11 +960,11 @@
 
 							}
 , 							{
-								"absolutepath" : "talk.aiff",
-								"filename" : "talk.aiff",
+								"absolutepath" : "C:\\Users\\garre\\OneDrive\\Desktop\\group-a-atmos.wav",
+								"filename" : "group-a-atmos.wav",
 								"filekind" : "audiofile",
-								"id" : "u679002132",
-								"selection" : [ 0.328947368421053, 0.092105263157895 ],
+								"id" : "u193001296",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1154,6 +1144,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"source" : [ "obj-15", 0 ]
 				}
@@ -1196,7 +1193,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
+					"order" : 0,
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
+					"order" : 1,
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -1507,33 +1513,39 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "pan2S.maxpat",
-				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 8/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../../AppData/Roaming/Cycling '74/Max 8/examples/spatialization/panning/lib",
-				"type" : "JSON",
+				"name" : "ChamberVerb.amxd",
+				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Chamberverb",
+				"type" : "amxd",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sin.aif",
-				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 8/examples/legacy-examples/synths/fm-surfer-folder/lib/waveforms",
-				"patcherrelativepath" : "../../../../../../../AppData/Roaming/Cycling '74/Max 8/examples/legacy-examples/synths/fm-surfer-folder/lib/waveforms",
-				"type" : "AIFF",
+				"name" : "ChamberVerb.amxd.maxsnap",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Chorus x2.amxd",
+				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Chorus x2",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Chorus x2.amxd.maxsnap",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Snare 01.wav",
+				"bootpath" : "C74:/packages/MaxIntroLessons/media",
+				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "blp512.aiff",
-				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "anton.aif",
-				"bootpath" : "C74:/media/msp",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "isthatyou.aiff",
 				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
 				"type" : "AIFF",
 				"implicit" : 1
@@ -1545,20 +1557,41 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "snare.aiff",
-				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "cym.aiff",
 				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "talk.aiff",
-				"bootpath" : "C74:/media/jitter",
+				"name" : "group-a-atmos.wav",
+				"bootpath" : "~/OneDrive/Desktop",
+				"patcherrelativepath" : "../../../Desktop",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "isthatyou.aiff",
+				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pan2S.maxpat",
+				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 8/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../AppData/Roaming/Cycling '74/Max 8/examples/spatialization/panning/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sin.aif",
+				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 8/examples/legacy-examples/synths/fm-surfer-folder/lib/waveforms",
+				"patcherrelativepath" : "../../../../AppData/Roaming/Cycling '74/Max 8/examples/legacy-examples/synths/fm-surfer-folder/lib/waveforms",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "snare.aiff",
+				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
@@ -1566,38 +1599,6 @@
 				"name" : "vibes-a1.aif",
 				"bootpath" : "C74:/media/msp",
 				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Snare 01.wav",
-				"bootpath" : "C74:/packages/MaxIntroLessons/media",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Chorus x2.amxd.maxsnap",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Chorus x2.amxd",
-				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Chorus x2",
-				"type" : "amxd",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ChamberVerb.amxd.maxsnap",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ChamberVerb.amxd",
-				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Chamberverb",
-				"type" : "amxd",
 				"implicit" : 1
 			}
  ],
